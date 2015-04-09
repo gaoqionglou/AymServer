@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="po.TopicInfo" table="T_TOPIC">
+  <id column="ID" name="id">
+   <generator class="native"/>
+  </id>
+  <property column="TITLE" generated="never" lazy="false" name="title"/>
+  <property column="IMAGEURI" generated="never" lazy="false" name="imageUri"/>
+    <property column="INTRODUCTION" generated="never" lazy="false" name="introduction"/>
+    <property column="NUM" generated="never" lazy="false" name="num"/>
+ 
+ </class>
+</hibernate-mapping>

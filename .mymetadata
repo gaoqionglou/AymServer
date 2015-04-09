@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="AymServer"
+  id="myeclipse.1419234465724"
+  context-root="/AymServer"
+  j2ee-spec="5.0"
+  archive="AymServer.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="po.ItemInfo" table="T_RECOMMEND">
+  <id column="ID" name="id">
+   <generator class="native"/>
+  </id>
+  <property column="PHONENO" generated="never" lazy="false" name="phonenum"/>
+   <property column="IMAGE_URI" generated="never" lazy="false" name="image_uri"/>
+    <property column="TOPIC" generated="never" lazy="false" name="topic"/>
+     <property column="LOCATION" generated="never" lazy="false" name="location"/>
+      <property column="COMMENT_NUM" generated="never" lazy="false" name="comment_num"/>
+       <property column="LIKE_NUM" generated="never" lazy="false" name="like_num"/>
+       <property column="MSG" generated="never" lazy="false" name="msg"/>
+ </class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="po.CommentInfo" table="T_COMMENT">
+  <id column="NO" name="no">
+   <generator class="native"/>
+  </id>
+  <property column="ID" generated="never" lazy="false" name="id"/>
+   <property column="PHONENO" generated="never" lazy="false" name="phonenum"/>
+    <property column="MSG" generated="never" lazy="false" name="msg"/>
+    <property column="TIME" generated="never" lazy="false" name="date"/>
+
+ </class>
+</hibernate-mapping>

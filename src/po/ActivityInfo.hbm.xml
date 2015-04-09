@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="po.ActivityInfo" table="T_ACTIVITY">
+  <id column="ID" name="id">
+   <generator class="native"/>
+  </id>
+  <property column="TITLE" generated="never" lazy="false" name="title"/>
+  <property column="IMAGEURI" generated="never" lazy="false" name="imageUri"/>
+    <property column="STARTTIME" generated="never" lazy="false" name="startTime"/>
+    <property column="ENDTIME" generated="never" lazy="false" name="endTime"/>
+    <property column="STATE" generated="never" lazy="false" name="state"/>
+ </class>
+</hibernate-mapping>

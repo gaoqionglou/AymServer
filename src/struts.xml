@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="structs2" namespace="/" extends="json-default">
+		
+		<action name="login" class="action.LoginAction" method="login">
+			<result type="json"></result>
+		</action>
+		
+		<action name="register" class="action.RegisterAction" method="register">
+			<result type="json"></result>
+		</action>
+		<action name="modify" class="action.ModifyPswAction" method="modifyPsw">
+			<result type="json"></result>
+		</action>
+		
+		<action name="select" class="action.SelectListAction" method="selectList">
+			<result type="json"></result>
+		</action>
+		<action name="getMaxsize" class="action.GetMaxSizeAction" method="getMaxsize">
+		<result type="json"></result>
+		</action>
+		<action name="dianzan" class="action.DianZanAction" method="dianzan">
+		<result type="json"></result>
+		</action>
+		<action name="getComment" class="action.GetCommentAction" method="getComment">
+		<result type="json"></result>
+		</action>
+		<action name="sendComment" class="action.SendCommentAction" method="sendComment">
+		<result type="json"></result>
+		</action>
+		<action name="getActivity" class="action.GetActivityAction" method="getActivity">
+		<result type="json"></result>
+		</action>
+		<action name="publish" class="action.PublishAction" method="publish">
+		<result type="json"></result></action>
+		<!-- unused  -->
+		<action name="upload" class="action.UploadImageAction" method="upload">
+		<result type="json"></result></action>
+		<action name="getTopic" class="action.GetTopicAction" method="getTopic">
+		<result type="json"></result></action>
+		<action name="getItem" class="action.ItemAction" method="getItem">
+		<result type="json"></result></action>
+		<action name="update" class="action.UpdateAction" method="update">
+		<result type="json"></result></action>
+		</package></struts>    
