@@ -47,7 +47,7 @@ public void setVersionName(String versionName) {
 		  System.out.println(updateUrl);
 			response.getWriter().write(updateUrl);
 	  }else{
-		  response.getWriter().write("");
+		  response.getWriter().write(updateUrl);
 	  }
   }
 }
